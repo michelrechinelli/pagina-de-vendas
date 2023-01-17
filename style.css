@@ -1,0 +1,87 @@
+/*
+cores pricipais 
+#017D3F
+#01871E
+#0D7004
+#3B8701
+#627D01
+*/ 
+header {
+    background-color: #333;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  nav li ul {
+    position: absolute;
+    display: none;
+    background-color: #333;
+    color: white;
+  }
+  
+  nav li:hover ul {
+    display: block;
+  }
+
+  .carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    width: 300%;
+    animation: slide 20s infinite;
+  }
+  
+  .carousel img {
+    flex: 1;
+    width: 33.33%;
+    object-fit: cover;
+  }
+  
+
+  
+  @keyframes slide {
+    0% {
+      margin-left: 0;
+    }
+    33.33% {
+      margin-left: 0;
+    }
+    34% {
+      margin-left: -100%;
+    }
+    66.6% {
+      margin-left: -100%;
+    }
+    67% {
+      margin-left: -200%;
+    }
+    100% {
+      margin-left: -200%;
+    }
+  }
