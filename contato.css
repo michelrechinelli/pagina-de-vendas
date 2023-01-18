@@ -1,0 +1,21 @@
+body{
+    background-color: #3B8701;
+}
+.contato h1{
+    color:white;
+    background-color: #0D7004;
+    justify-content: flex-start;
+}
+.contato p{
+    color: white;
+    background-color: #0D7004;
+}
+.contato a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    margin: 0 15px 0 0;
+}
+.contato a:hover{
+    color: yellow;
+}
