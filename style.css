@@ -11,6 +11,8 @@ body{
 }
 header {
     background-color: white;
+    margin: 0 0 10px 0;
+    border-radius: 100px 0 100px 0;
   
   }
   
@@ -59,6 +61,7 @@ header {
     max-width: 800px;
     margin: 0 auto;
     overflow: hidden;
+    background-color: white;
   }
   
   .carousel {
@@ -94,4 +97,52 @@ header {
     100% {
       margin-left: -200%;
     }
+  }
+  .grama{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+  .img1{
+    text-align: center;
+    background-color: rgba(95, 95, 95, 0.3);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+  }
+  .img1 img{
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .img1:hover{
+    background-color: rgb(13, 112, 4, 0.3);
+  }
+  .img2{
+    text-align: center;
+    background-color: rgba(95, 95, 95, 0.3);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+  }
+  .img2 img{
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .img2:hover{
+    background-color: rgb(13, 112, 4, 0.3);
+  }
+  .img3{
+    text-align: center;
+    background-color: rgba(95, 95, 95, 0.3);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+  }
+  .img3 img{
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px ;
+  }
+  .img3:hover{
+    background-color: rgb(13, 112, 4, 0.3);
   }
