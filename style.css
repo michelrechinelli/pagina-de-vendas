@@ -167,54 +167,49 @@ header {
   }
   .img3:hover{
     background-color: rgb(13, 112, 4, 0.3);
+
+
   }
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 30px 0;
-  }
-  
-  .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  .container{
+    
     margin: 0 auto;
-    max-width: 1200px;
+    background-color:#073d02;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
   }
-  
-  .footer-links, .footer-social {
-    width: 30%;
-    text-align: center;
-  }
-  
-  .footer-copyright {
-    width: 40%;
-    text-align: center;
-  }
-  
-  footer h4 {
-    margin-bottom: 15px;
-  }
-  
-  footer ul {
+  .container li{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    
+  }
+  .container a{
+    color: white;
+    text-decoration: none;
+    
+  }
+  .container a:hover{
+    background-color: white;
+    color: #073d02;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  .link{
+    margin: 15px;
+    text-align: justify;
+  }
+  .link h2{
+    color: white;
   }
   
-  footer .social-icons {
-    margin: 0;
-    padding: 0;
+  .social{
+    margin: 15px;
+    text-align: justify;
   }
-  
-  footer .social-icons li {
-    display: inline-block;
-    margin-right: 10px;
+  .social h2{
+    color: white;
   }
-  
-  footer .social-icons li a {
-    color: #fff;
-    font-size: 20px;
+  .copy{
+    text-align: center;
+    background-color:#0D7004;
+    color: white;
   }
-  
