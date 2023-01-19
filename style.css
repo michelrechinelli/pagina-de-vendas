@@ -8,12 +8,13 @@ cores pricipais
 */ 
 body{
     background-color: #3B8701;
+    margin: 0 0 0 0;
 }
 header {
     background-color: white;
     margin: 0 0 10px 0;
     border-radius: 100px 0 100px 0;
-    z-index: 1;
+    margin: 1px 3px 7px 3px;
   }
   
   nav {
@@ -126,6 +127,10 @@ header {
     text-align: justify;
     margin: 10px;
   }
+  .img1 a{
+    text-decoration: none;
+    color: black;
+  }
   .img1:hover{
     background-color: rgb(13, 112, 4, 0.3);
   }
@@ -144,6 +149,10 @@ header {
     width: 250px;
     text-align: justify;
     margin: 10px;
+  }
+  .img2 a{
+    text-decoration: none;
+    color: black;
   }
   .img2:hover{
     background-color: rgb(13, 112, 4, 0.3);
@@ -164,6 +173,10 @@ header {
     width: 250px;
     text-align: justify;
     margin: 10px;
+  }
+  .img3 a{
+    text-decoration: none;
+    color: black;
   }
   .img3:hover{
     background-color: rgb(13, 112, 4, 0.3);
