@@ -204,7 +204,6 @@ header {
     background-color: white;
     color: #073d02;
     border-radius: 5px;
-    margin: 5px;
   }
   .link{
     margin: 15px;
@@ -225,4 +224,7 @@ header {
     text-align: center;
     background-color:#0D7004;
     color: white;
+  }
+  .video{
+    margin-top: 7px;
   }
