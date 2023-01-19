@@ -102,6 +102,7 @@ header {
     display: flex;
     margin-top: 20px;
     justify-content: space-around;
+    margin: 10px;
   }
   .img1{
     text-align: center;
@@ -112,6 +113,11 @@ header {
   }
   .img1 img{
     border-radius: 10px;
+    margin: 10px;
+  }
+  .img1 p{
+    width: 250px;
+    text-align: justify;
     margin: 10px;
   }
   .img1:hover{
@@ -128,6 +134,11 @@ header {
     border-radius: 10px;
     margin: 10px;
   }
+  .img2 p{
+    width: 250px;
+    text-align: justify;
+    margin: 10px;
+  }
   .img2:hover{
     background-color: rgb(13, 112, 4, 0.3);
   }
@@ -142,6 +153,11 @@ header {
     border-radius: 10px;
     margin: 10px;
     border: 1px ;
+  }
+  .img3 p{
+    width: 250px;
+    text-align: justify;
+    margin: 10px;
   }
   .img3:hover{
     background-color: rgb(13, 112, 4, 0.3);
