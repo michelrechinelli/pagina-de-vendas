@@ -61,13 +61,38 @@ header {
     align-items: center;
     font-size: 1.2em;
 }
-.batataisimg{
-    text-align: center;
-    background-color: white;
-    margin: 15px;
-    border-radius: 10px;
+.campo{
+  display: flex;
 }
-.batataisimg button{
-    background-color: transparent;
-    border: none;
+.campo img{
+  border-radius: 100px;;
+}
+
+.jardim{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  margin: 0;
+  color: #0D7004;
+}
+.familia{
+  display: flex;
+}
+.familia img{
+  margin: 20px;
+  border-radius: 50px;
+}
+.containerimg img{
+  text-align: center;
+}
+.gallery-container img{
+  width: 17%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+
+}
+.gallery-container img:hover{
+  transform: scale(1.1);
 }
