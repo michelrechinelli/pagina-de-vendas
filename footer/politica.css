@@ -1,0 +1,64 @@
+body{
+    background-color: #3B8701;
+    margin: 0 0 0 0;
+}
+header {
+    background-color: white;
+    margin: 0 0 10px 0;
+    border-radius: 100px 0 100px 0;
+    margin: 1px 3px 7px 3px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  nav a {
+    color: #0D7004;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 1.5em;
+  }
+  nav a:hover{
+    text-transform: uppercase;
+    color: white;
+    background-color: #0D7004;
+    border-radius: 18px;
+  }
+
+  nav li ul {
+    position: absolute;
+    display: none;
+    background-color: #cffdcb;
+    color: white;
+  }
+  
+  nav li:hover ul {
+    display: block;
+  }
+  .politica{
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .politica a{
+    text-decoration: none;
+    color: #0D7004;
+    font-weight: 800
+  }
