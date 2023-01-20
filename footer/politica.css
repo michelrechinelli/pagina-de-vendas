@@ -1,6 +1,6 @@
 body{
     background-color: #3B8701;
-    margin: 0 0 0 0;
+    margin: 0 0 15px 0;
 }
 header {
     background-color: white;
@@ -61,4 +61,19 @@ header {
     text-decoration: none;
     color: #0D7004;
     font-weight: 800
+  }
+  .politica h1{
+    text-align: center;
+    color: #0D7004;
+  }
+  .politica h2{
+    color: #0D7004;
+  }
+  .map{
+    display: flex;
+    justify-content: space-around;
+  }
+  .contato{
+    text-align: center;
+    color: #0D7004;
   }

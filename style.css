@@ -63,6 +63,7 @@ header {
     margin: 0 auto;
     overflow: hidden;
     background-color: white;
+    
   }
   
   .carousel {
@@ -75,6 +76,7 @@ header {
     flex: 1;
     width: 33.33%;
     object-fit: cover;
+    max-width: 800px;
   }
   
 
@@ -227,4 +229,11 @@ header {
   }
   .video{
     margin-top: 7px;
+  }
+  .total{
+    background-color: white;
+    margin: 0 auto;
+    width: 820px;
+    padding: 10px;
+    border-radius: 5px;
   }
