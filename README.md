@@ -9,7 +9,16 @@
         <h2>Como utilizar</h2>
         <p>Para acessar esse projeto, basta fazer o download da pasta de arquivos e abrir o arquivo "index.htm" no seu navegador.</p> 
 </div>
- 
+ <div>
+ <h2>Apresentação</h2>
+ <p>Algumas das telas da página </p>
+            <div class="imagens" style="display: flex; margin-bottom: 10px;">
+                <img style="max-width: 33.33%;" src="readme/1.png" alt="">
+                <img style="max-width: 33.33%;" src="readme/2.png" alt="">
+                <img style="max-width: 33.33%;" src="readme/3.png" alt="">
+            </div>
+            <video style="width: 800px;" src="readme/2023-01-21 14-02-20.mp4" autoplay controls="true"></video>
+ </div>
 
 
 
